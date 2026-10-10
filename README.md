@@ -7,9 +7,7 @@ Code to reproduce the experiments and tables of the paper:
 > Supervised by Salman Fazle Rabby
 > Department of Electrical and Electronic Engineering, Sylhet Engineering College, Sylhet, Bangladesh (affiliated with Shahjalal University of Science & Technology)
 >
-> **Paper:** 
-
-> This study uses a cross-dataset protocol with multiple seeds.
+> **Paper:** []
 
 ---
 
@@ -48,8 +46,9 @@ No architecture was clearly more robust than the others after correction for mul
 ├── LICENSE
 ├── notebooks/
 │   └── glaucoma_cross_dataset.ipynb     # full pipeline (Colab notebook)
-├── scripts/                              # [ADD] disc-cropping script, G1020 vCDR analysis (see Section 7)
 └── results/                              # CSV files and figures produced by the notebook
+└──Crop_G1020_ORIGA.ipynb
+└──G1020_vCDR.ipynb
 ```
 
 > Adjust this tree to match what you actually upload.
@@ -77,8 +76,6 @@ pip install -r requirements.txt
 
 On Colab, most of these are already installed. Only Grad-CAM needs an extra install: `!pip install -q grad-cam`.
 
-**Versions used:** [FILL IN: run `import torch, torchvision, sklearn; print(torch.__version__, torchvision.__version__, sklearn.__version__)` in your Colab notebook and paste the result here.]
-
 ---
 
 ## 4. Datasets: download and folder layout
@@ -87,10 +84,10 @@ The datasets are **not included** in this repository. Each has its own license a
 
 | Dataset | Images (glaucoma / normal) | Where to get it |
 |---|---|---|
-| ACRIMA | 705 (396 / 309) | [ADD LINK] |
-| RIM-ONE DL | 485 (172 / 313) | [ADD LINK] |
-| ORIGA-light | 650 (168 / 482) | [ADD LINK] |
-| G1020 (test-only) | 1020 (296 / 724) | [ADD LINK] |
+| ACRIMA | 705 (396 / 309) | 
+| RIM-ONE DL | 485 (172 / 313) |
+| ORIGA-light | 650 (168 / 482) | 
+| G1020 (test-only) | 1020 (296 / 724) | 
 
 ### Where to place the files
 
@@ -212,8 +209,8 @@ Model summary from the paper (mean ± SD over three seeds):
 
 ## 7. Additional analyses in the paper
 
-- **Image cropping:** [ADD: describe exactly how ORIGA and G1020 images were cropped around the optic disc and saved at 512 × 512, and add the script to `scripts/`.]
-- **G1020 label check (vCDR):** the vertical cup-to-disc ratio computed from the G1020 disc and cup masks (paper Section III-F, Fig. 4). [ADD: script or notebook in `scripts/`.]
+- **Image cropping:** ORIGA and G1020 images were cropped around the optic disc and saved at 512 × 512.
+- **G1020 label check (vCDR):** the vertical cup-to-disc ratio computed from the G1020 disc and cup masks (paper Section III-F, Fig. 4). 
 - **Grad-CAM:** step 10 of the notebook (ResNet50 trained on ACRIMA, last residual block, eight test images). Qualitative only.
 
 ---
@@ -255,4 +252,4 @@ Please also cite the original dataset papers:
 
 Code released under the **MIT License** (see `LICENSE`). The datasets are **not** covered by this license; follow each dataset's own terms.
 
-Contact: [AL-AMIN RAHMAN] ([alaminrahman.eee.33@gmail.com]) · ORCID: []
+Contact: [AL-AMIN RAHMAN] ([alaminrahman.eee.33@gmail.com]) · ORCID: [] , GitHub: [https://github.com/alaminrahman33]
