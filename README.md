@@ -7,7 +7,7 @@ Code to reproduce the experiments and tables of the paper:
 > Supervised by Salman Fazle Rabby
 > Department of Electrical and Electronic Engineering, Sylhet Engineering College, Sylhet, Bangladesh (affiliated with Shahjalal University of Science & Technology)
 >
-> **Paper:** []
+> **Paper:** [https://doi.org/10.5281/zenodo.23320573]
 
 ---
 
