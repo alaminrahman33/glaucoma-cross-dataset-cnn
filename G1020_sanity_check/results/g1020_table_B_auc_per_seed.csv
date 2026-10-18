@@ -1,0 +1,6 @@
+﻿Model,Seed 42,Seed 7,Seed 123
+ResNet50,0.587,0.473,0.473
+DenseNet121,0.531,0.467,0.471
+MobileNetV2,0.617,0.433,0.536
+EfficientNet-B0,0.576,0.546,0.446
+InceptionV3,0.555,0.539,0.596
