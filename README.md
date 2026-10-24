@@ -7,7 +7,7 @@ Code to reproduce the experiments and tables of the paper:
 > Supervised by Salman Fazle Rabby
 > Department of Electrical and Electronic Engineering, Sylhet Engineering College, Sylhet, Bangladesh (affiliated with Shahjalal University of Science & Technology)
 >
-> **Paper:** [PASTE LINK HERE: arXiv / TechRxiv / Zenodo DOI]
+> **Paper:** [https://doi.org/10.5281/zenodo.23320573]
 
 > **Note:** This paper corrects and supersedes our earlier preprint, *"Automated Glaucoma Detection Using OCT and Fundus Images with Convolutional Neural Network"* (January 2023). The earlier work evaluated on a single data source; this study uses a cross-dataset protocol with multiple seeds.
 
@@ -311,4 +311,4 @@ Please also cite the original dataset papers:
 
 Code released under the **MIT License** (see `LICENSE`). The datasets are **not** covered by this license; follow each dataset's own terms.
 
-Contact: Al-Amin Rahman (alaminrahman.eee.33@gmail.com) · ORCID: [YOUR ORCID] · [GitHub profile link]
+Contact: Al-Amin Rahman (alaminrahman.eee.33@gmail.com) · ORCID: [https://orcid.org/0009-0005-1819-5525] ·
