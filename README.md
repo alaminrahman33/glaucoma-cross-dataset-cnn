@@ -202,7 +202,7 @@ If you see `CUDA out of memory`, restart the session and set `BATCH = 16` for al
 | `primary_in_vs_cross.png` | in-domain vs cross-source bar chart (paper Fig. 4) |
 | `gradcam.png` | Grad-CAM example maps (paper Fig. 6, optional) |
 
-> [CHECK] File names above come from the earlier README. Update them if your notebook now writes different names, and add the output files of the follow-up experiments (Section 7).
+
 
 ### How results are aggregated
 
@@ -266,7 +266,7 @@ Implementation details worth knowing when you re-run these:
 - **LAB reference:** per-channel CIELAB mean and SD mapped to reference values. The references are the average per-image means and SDs of the **source training images only**, recomputed for every source and seed.
 - **Strong color augmentation:** brightness, contrast and saturation factors drawn between 0.6 and 1.4, hue shift up to ±0.1 (training only).
 
-> [ADD: list the script or notebook for each row above, for example `scripts/recalibration.py`, `scripts/multi_source.py`, `scripts/normalization.py`, `scripts/g1020_vcdr.py`.]
+
 
 ---
 
@@ -293,7 +293,7 @@ If you use this code, please cite the paper:
   title   = {Cross-Dataset Generalization of ImageNet Pre-trained CNNs for Glaucoma Detection from Fundus Images},
   author  = {Rahman, Al-Amin and Ahmed, Saifuddin and Ahmed, Resalat},
   year    = {2026},
-  note    = {Preprint. [ADD LINK / DOI]}
+  note    = {Preprint. [https://doi.org/10.5281/zenodo.23320573]}
 }
 ```
 
