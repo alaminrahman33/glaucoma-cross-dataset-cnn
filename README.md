@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 On Colab, most of these are already installed. Only Grad-CAM needs an extra install: `!pip install -q grad-cam`.
 
-**Versions used:** [FILL IN: run `import torch, torchvision, sklearn, cv2; print(torch.__version__, torchvision.__version__, sklearn.__version__, cv2.__version__)` in your Colab notebook and paste the result here.]
+**Versions used:** [FILL IN: run `import torch, torchvision, sklearn, cv2; print(torch.__version__, torchvision.__version__, sklearn.__version__, cv2.__version__)]
 
 ---
 
