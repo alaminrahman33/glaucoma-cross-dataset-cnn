@@ -9,7 +9,6 @@ Code to reproduce the experiments and tables of the paper:
 >
 > **Paper:** [https://doi.org/10.5281/zenodo.23320573]
 
-> **Note:** This paper corrects and supersedes our earlier preprint, *"Automated Glaucoma Detection Using OCT and Fundus Images with Convolutional Neural Network"* (January 2023). The earlier work evaluated on a single data source; this study uses a cross-dataset protocol with multiple seeds.
 
 ---
 
